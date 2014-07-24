@@ -1,0 +1,13 @@
+Source: python3-blink1lib
+Section: python
+Priority: optional
+Maintainer: Alexander Gordeyev <s0meuser@yandex.ru>
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python3-setuptools
+Standards-Version: 3.9.5
+X-Python3-Version: >= 3.3
+Homepage: https://github.com/Shura1oplot/python3-blink1lib/
+
+Package: python3-blink1lib
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Python 3 module for blink(1)
